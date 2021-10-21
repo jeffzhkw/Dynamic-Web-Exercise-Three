@@ -9,7 +9,8 @@ router.get("/", (req, res) => {
 
 router.get("/me", (req, res) => {
   res.send(`<h1>This is about me</h1>
-  <p><a href='/about'>Go to big about</a></p>`);
+  <p><a href='/about'>Go to big about</a></p>
+  <img src="/1.jpg" alt="profile photo">`);
 });
 
 module.exports = router;
